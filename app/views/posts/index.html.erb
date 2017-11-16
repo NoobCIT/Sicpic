@@ -1,0 +1,6 @@
+<h1>SicPic</h1>
+<div class="posts-wrapper row">
+  <% @posts.each do |post| %>
+    <%= render 'post', post: post %>
+  <% end %>
+</div>
